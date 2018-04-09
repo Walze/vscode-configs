@@ -10,7 +10,7 @@
   "typescript.check.npmIsInstalled": false,
   "editor.minimap.enabled": false,
   "vsicons.projectDetection.autoReload": true,
-  "editor.fontFamily": "'Fixedsys Excelsior 3.01' inconsolata",
+  "editor.fontFamily": "'Fixedsys Excelsior 3.01', inconsolata",
   "editor.fontSize": 28,
   "editor.lineHeight": 32,
   "editor.fontLigatures": true,
@@ -31,11 +31,11 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDragAndDrop": false,
   "files.exclude": {
-    "**/.git": true, // this is a default value
-    "**/.DS_Store": true, // this is a default value
-    "**/node_modules": true, // this excludes all folders 
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
     "**/package-lock.json": true,
-    "node_modules": true // this excludes the folder 
+    "node_modules": true
   },
   "git.autofetch": true,
 }
