@@ -1,23 +1,14 @@
-//vscode-configs
-
 {
-  "python.linting.pylintArgs": [
-    "--disable=C0111",
-    "--disable=C0103"
-  ],
-  "window.zoomLevel": -2,
+  "window.zoomLevel": -1,
   "editor.tabSize": 2,
-  "typescript.check.npmIsInstalled": false,
   "editor.minimap.enabled": false,
   "vsicons.projectDetection.autoReload": true,
-  "editor.fontFamily": "'Fixedsys Excelsior 3.01', inconsolata",
-  "editor.fontSize": 28,
+  "editor.fontFamily": "'Consolas', inconsolata",
+  "editor.fontSize": 24,
   "editor.lineHeight": 32,
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "inconsolata",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "'Fixedsys Excelsior 3.01', Consolas",
   "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
@@ -31,11 +22,14 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDragAndDrop": false,
   "files.exclude": {
-    "**/.git": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    "**/node_modules": true, // this excludes all folders 
     "**/package-lock.json": true,
-    "node_modules": true
+    "node_modules": true // this excludes the folder 
   },
-  "git.autofetch": true,
+  "python.linting.pylintArgs": [
+    "--disable=C0111",
+    "--disable=C0103"
+  ],
 }
